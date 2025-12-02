@@ -1,7 +1,26 @@
+# 🔥 Pumpfun Volume Bot – Automated Solana Volume Generator for Pump.fun Tokens
 
-# Pumpfun VolumeBot
+A high‑performance **Pumpfun Volume Bot** designed to automatically generate buy/sell volume on any Pump.fun token using distributed wallets operating in parallel.  
+This bot automates SOL distribution, repeated swap cycles, randomized timing, and multi‑wallet execution to simulate realistic market activity.
 
-This bot is designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions simultaneously on the pumpfun token. It leverages Solana's blockchain technology to perform these operations efficiently.
+Optimized for developers searching for:  
+**pumpfun volume bot • solana pumpfun bot • pumpfun swap bot • pumpfun volume generator • solana volume bot • pumpfun trading bot**
+
+---
+
+## 🚀 Overview
+
+The **Pumpfun VolumeBot** uses multiple wallets to execute endless buy/sell cycles on Pump.fun tokens.  
+Each wallet:
+
+- Receives SOL automatically  
+- Performs repeated buy/sell swaps  
+- Executes randomized intervals  
+- Operates simultaneously with others  
+
+This creates continuous organic‑looking volume on Pump.fun markets.
+
+---
 
 ## 📋 Environment Variables
 
