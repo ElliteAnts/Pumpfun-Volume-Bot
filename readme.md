@@ -117,4 +117,4 @@ https://solscan.io/tx/4mbq5gbU6jKEr5sbxhRqcudoCdCHETGzwuFjutNwfQSGFp8xQccreRnHLY
 
 # 👤 Author
 
-### [Telegram](https://t.me/idioRusty)
+### [Telegram](https://t.me/microRustyme)
