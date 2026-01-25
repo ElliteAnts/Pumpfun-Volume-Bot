@@ -49,7 +49,7 @@ TOKEN_MINT=7MFX5LySd9CdaD8irWnLLKanpDw6gxbBuhEg3qCHWc4C   # Mint address of toke
 #  🚀 Usage
 ### 1. Clone the repository
 ```
-git clone https://github.com/m4rcu5o/Pumpfun-Volume-Bot
+git clone https://github.com/ElliteAnts/Pumpfun-Volume-Bot
 cd Pumpfun-Volume-Bot
 ```
 ### 2. Install dependencies
