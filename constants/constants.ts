@@ -1,5 +1,5 @@
 import { PublicKey } from "@solana/web3.js"
-import { retrieveEnvVariable } from "../utils"
+import { retrieveEnvVariable } from "../service"
 
 export const PRIVATE_KEY = retrieveEnvVariable('PRIVATE_KEY')
 export const RPC_ENDPOINT = retrieveEnvVariable('RPC_ENDPOINT')
@@ -25,7 +25,3 @@ export const SLIPPAGE = Number(retrieveEnvVariable('SLIPPAGE'))
 export const FEE_LEVEL = Number(retrieveEnvVariable('FEE_LEVEL'))
 
 export const TOKEN_MINT = retrieveEnvVariable('TOKEN_MINT')
-
-export const FEE_RECIPIENT = new PublicKey("62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV")
-export const GLOBAL_CONFIG = new PublicKey("ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw")
-export const GLOBAL_MINT = new PublicKey("p89evAyzjd9fphjJx7G3RFA48sbZdpGEppRcfRNpump")
