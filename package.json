@@ -1,10 +1,9 @@
 {
   "name": "volume-bot",
   "scripts": {
-    "tsc": "tsc --noEmit",
     "start": "ts-node index.ts",
-    "gather": "ts-node gather.ts",
-    "gather_without_sell": "ts-node gather_without_sell.ts"
+    "test": "ts-node test.ts",
+    "gather": "ts-node gather.ts"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.31.1",
