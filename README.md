@@ -98,6 +98,6 @@ https://solscan.io/tx/4mbq5gbU6jKEr5sbxhRqcudoCdCHETGzwuFjutNwfQSGFp8xQccreRnHLY
 
 # 👤 Author
 
-### [Telegram](https://t.me/microRustyme)
+### [Telegram](https://t.me/WebFiveFingers)
 
 ### If you like my volume bot, please don't hesitate to star this repository.
