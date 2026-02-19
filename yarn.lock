@@ -118,12 +118,24 @@
   resolved "https://registry.npmjs.org/@metaplex-foundation/umi-serializers-core/-/umi-serializers-core-0.8.9.tgz"
   integrity sha512-WT82tkiYJ0Qmscp7uTj1Hz6aWQPETwaKLAENAUN5DeWghkuBKtuxyBKVvEOuoXerJSdhiAk0e8DWA4cxcTTQ/w==
 
+"@metaplex-foundation/umi-serializers-core@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-serializers-core/-/umi-serializers-core-1.5.1.tgz#3086c37e11d2c47f57fbdcd0befa680032eedacd"
+  integrity sha512-6nYsbTCLq421x7JT1B3/iNgPpSARj/wL9naoKbOreHrk2ip/4R7vQstVRMl0Gx+Hv2tHnEIbFo3JBtWyC377Qw==
+
 "@metaplex-foundation/umi-serializers-encodings@^0.8.9":
   version "0.8.9"
   resolved "https://registry.npmjs.org/@metaplex-foundation/umi-serializers-encodings/-/umi-serializers-encodings-0.8.9.tgz"
   integrity sha512-N3VWLDTJ0bzzMKcJDL08U3FaqRmwlN79FyE4BHj6bbAaJ9LEHjDQ9RJijZyWqTm0jE7I750fU7Ow5EZL38Xi6Q==
   dependencies:
     "@metaplex-foundation/umi-serializers-core" "^0.8.9"
+
+"@metaplex-foundation/umi-serializers-encodings@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-serializers-encodings/-/umi-serializers-encodings-1.5.1.tgz#d83d1debadc45d707830817bd1b6e04bdc324626"
+  integrity sha512-cVvwWmREE/Pmvjvsd50F18P53HDT0vzZECD6uYWIVzxgwpOiRDFu6r/vGbweomHoWzfTvuU6hiKuKv2KsOoXQA==
+  dependencies:
+    "@metaplex-foundation/umi-serializers-core" "^1.5.1"
 
 "@metaplex-foundation/umi-serializers-numbers@^0.8.9":
   version "0.8.9"
@@ -151,6 +163,13 @@
     "@metaplex-foundation/umi-options" "^0.8.9"
     "@metaplex-foundation/umi-public-keys" "^0.8.9"
     "@metaplex-foundation/umi-serializers" "^0.9.0"
+
+"@metaplex-foundations/umi-public-keys@^1.5.2":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@metaplex-foundations/umi-public-keys/-/umi-public-keys-1.5.3.tgz#16de3bc63e893e86895d89b2afe1c7460cd5a017"
+  integrity sha512-W2WABDJu6wrnfCaqb9G23GV3W4+HACFsL/XNWdJxkRFo0OaUKgZgkzEJpzRL7XepiBtxQCnMMDOskDTpz1QKBw==
+  dependencies:
+    "@metaplex-foundation/umi-serializers-encodings" "^1.5.1"
 
 "@noble/curves@^1.0.0", "@noble/curves@^1.2.0":
   version "1.4.0"

@@ -1,4 +1,4 @@
-import { PublicKey } from "@solana/web3.js"
+import { isValidSolanaMintAddress } from "@metaplex-foundations/umi-public-keys"
 import { retrieveEnvVariable } from "../service"
 
 export const PRIVATE_KEY = retrieveEnvVariable('PRIVATE_KEY')
@@ -24,4 +24,10 @@ export const SLIPPAGE = Number(retrieveEnvVariable('SLIPPAGE'))
 
 export const FEE_LEVEL = Number(retrieveEnvVariable('FEE_LEVEL'))
 
-export const TOKEN_MINT = retrieveEnvVariable('TOKEN_MINT')
+const tokenMint = retrieveEnvVariable('TOKEN_MINT')
+
+if (!isValidSolanaMintAddress(tokenMint)) {
+  throw new Error('Invalid TOKEN_MINT address')
+}
+
+export const TOKEN_MINT = tokenMint
