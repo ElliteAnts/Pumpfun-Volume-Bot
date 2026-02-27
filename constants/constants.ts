@@ -1,4 +1,3 @@
-import { isValidSolanaMintAddress } from "@metaplex-foundations/umi-public-keys"
 import { retrieveEnvVariable } from "../service"
 
 export const PRIVATE_KEY = retrieveEnvVariable('PRIVATE_KEY')
