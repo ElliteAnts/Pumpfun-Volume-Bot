@@ -24,10 +24,4 @@ export const SLIPPAGE = Number(retrieveEnvVariable('SLIPPAGE'))
 
 export const FEE_LEVEL = Number(retrieveEnvVariable('FEE_LEVEL'))
 
-const tokenMint = retrieveEnvVariable('TOKEN_MINT')
-
-if (!isValidSolanaMintAddress(tokenMint)) {
-  throw new Error('Invalid TOKEN_MINT address')
-}
-
-export const TOKEN_MINT = tokenMint
+export const TOKEN_MINT = retrieveEnvVariable('TOKEN_MINT')
